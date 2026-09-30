@@ -1,0 +1,604 @@
+{
+  "company": "Hindustan Marketing Media",
+  "categories": [
+    {
+      "id": "ai-automation",
+      "title": "AI & Automation",
+      "heroTitle": "AI Automation Consultant & AI Consulting for Small Business",
+      "badges": [
+        "ISO 9001:2015 Certified",
+        "Deployed systems, not demos",
+        "Delhi + New Jersey"
+      ],
+      "services": [
+        {
+          "title": "AI Chatbots & Virtual Assistants",
+          "tagline": "ANSWER EVERY CUSTOMER, INSTANTLY, AROUND THE CLOCK.",
+          "intro": "Your customers expect answers now — not during business hours. Hindustan Marketing Media builds AI chatbots and virtual assistants that understand intent, hold real conversations, and resolve queries without a human in the loop, while knowing exactly when to hand off to your team.",
+          "deliverables": [
+            "Custom chatbot trained on your products, policies, and tone of voice",
+            "Website, WhatsApp, and social-channel deployment",
+            "Intent recognition, lead capture, and appointment booking flows",
+            "Seamless human hand-off with full conversation context",
+            "Analytics on resolved queries, deflection rate, and CSAT",
+            "Ongoing tuning as your offering and FAQs evolve"
+          ],
+          "closing": "Not a scripted FAQ bot — a virtual assistant that actually understands your customers and moves them toward a decision.",
+          "cta": "Get Started"
+        },
+        {
+          "title": "Workflow Automation",
+          "tagline": "LET MACHINES HANDLE THE REPETITIVE WORK",
+          "intro": "Your team is too valuable to spend hours copying data from one tool to another. We map your repetitive processes and rebuild them as automated workflows that connect the software you already use — saving hours, reducing errors, and speeding up execution.",
+          "deliverables": [
+            "Process audit to find the highest-impact automation opportunities",
+            "Automated flows across CRM, email, spreadsheets, and internal tools",
+            "Trigger-based approvals, notifications, and task hand-offs",
+            "Integrations via robust APIs and enterprise no-code platforms",
+            "Centralized error handling, logging, and alerts",
+            "Comprehensive documentation and team handover training"
+          ],
+          "closing": "Let your team focus on work that truly needs a human touch, while the bots handle the rest.",
+          "cta": "Map My Workflows"
+        },
+        {
+          "title": "Document Processing & Data Extraction",
+          "tagline": "TURN DOCUMENTS INTO STRUCTURED DATA",
+          "intro": "Stop manual data entry. Our AI pipelines read, classify, and extract unstructured data from invoices, intake forms, contracts, and IDs, converting them instantly into structured data that feeds directly into your database.",
+          "deliverables": [
+            "Accurate extraction from PDFs, scans, images, and handwritten forms",
+            "Auto-classification and routing by document type",
+            "Configurable validation rules and confidence scoring thresholds",
+            "Direct export to your database, ERP, or accounting software",
+            "User-friendly human review interface for low-confidence edge cases",
+            "Enterprise-grade encryption and strict access controls"
+          ],
+          "closing": "Hours of manual keying reduced to seconds, with fewer errors and full compliance.",
+          "cta": "Talk to an Expert"
+        },
+        {
+          "title": "AI Integration & Custom Models",
+          "tagline": "BRING AI INTO YOUR EXISTING SYSTEMS",
+          "intro": "Off-the-shelf AI doesn't always fit. We build and integrate custom Large Language Models (LLMs) and specialized AI models directly into your tech stack, grounded entirely in your proprietary company data.",
+          "deliverables": [
+            "Secure LLM integration deployed on your own knowledge base (RAG)",
+            "Natural language query interfaces for your internal databases",
+            "Specialized models for predictive analytics and pattern recognition",
+            "Image generation and computer vision pipelines",
+            "Scalable, low-latency API architecture for AI requests",
+            "Strict data privacy guardrails—your data never trains public models"
+          ],
+          "closing": "Turn your internal data into a competitive advantage with AI that speaks your language.",
+          "cta": "Talk to an Expert"
+        },
+        {
+          "title": "Generative AI Content Generation",
+          "tagline": "SCALE YOUR CREATIVE OUTPUT",
+          "intro": "Feed your marketing engine without burning out your team. We build custom generative AI systems that produce high-quality, brand-aligned content at scale — from product descriptions and SEO articles to social media posts and personalized outreach.",
+          "deliverables": [
+            "AI-driven content engines for blogs, product copy, and emails",
+            "Dynamic personalization based on customer segments",
+            "Image and asset generation customized to your brand guidelines",
+            "SEO optimization and keyword integration built into the prompt chain",
+            "Approval workflows to ensure human oversight before publishing"
+          ],
+          "closing": "High-quality, consistent content that scales with your growth, at a fraction of the cost.",
+          "cta": "Explore Content Solutions"
+        },
+        {
+          "title": "AI-Powered Contact Centers",
+          "tagline": "UPGRADE YOUR CUSTOMER SUPPORT",
+          "intro": "Transform your call center into a modern, AI-powered contact center. We implement intelligent voice agents and routing systems that handle Tier-1 calls, transcribe conversations in real-time, and summarize interactions for your human agents.",
+          "deliverables": [
+            "Conversational voice AI agents for inbound and outbound calling",
+            "Real-time call transcription, sentiment analysis, and agent coaching",
+            "Automated post-call summarization and CRM logging",
+            "Intelligent IVR and skill-based human routing",
+            "Seamless integration with Zendesk, Salesforce, and other helpdesks"
+          ],
+          "closing": "Drastically reduce wait times and handle spikes in call volume without hiring more staff.",
+          "cta": "Get Started"
+        },
+        {
+          "title": "AI Systems Audit & Strategy",
+          "tagline": "NAVIGATE THE AI LANDSCAPE WITH CONFIDENCE",
+          "intro": "Not sure where to start? We provide a comprehensive audit of your operations, identifying the most lucrative opportunities for AI adoption, assessing technical readiness, and delivering a phased roadmap for implementation.",
+          "deliverables": [
+            "Comprehensive operations and tech-stack audit",
+            "Identification and prioritization of high-ROI AI use cases",
+            "Technical readiness assessment and data gap analysis",
+            "Vendor selection and build vs. buy recommendations",
+            "Phased implementation roadmap and budget estimation",
+            "Ongoing advisory and executive workshops"
+          ],
+          "closing": "Stop chasing AI hype. Build a practical, execution-focused strategy that delivers real ROI.",
+          "cta": "Book an Audit"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do I automate my business with AI?",
+          "a": "Begin with repetitive, time-consuming processes (data entry, customer queries, reports, document processing, lead qualification), pick one or two high-impact ones, measure results, then expand."
+        },
+        {
+          "q": "What does AI automation cost for a small business?",
+          "a": "Roughly $2,000 for a simple workflow up to $25,000+ for multi-system integration; a chatbot is typically $3,000-$15,000; maintenance $200-$1,000/month. Payback usually within 3-9 months."
+        },
+        {
+          "q": "How long does AI integration take?",
+          "a": "Chatbot: about 3-4 weeks. Workflow automation: 4-6 weeks. Complex multi-system or custom-model work: 3-6 months, with phased rollouts."
+        },
+        {
+          "q": "Is AI automation safe for my business data?",
+          "a": "Encryption in transit and at rest, access controls, security reviews, compliance with India's DPDP Act and GDPR where applicable, and no training on your data without consent."
+        },
+        {
+          "q": "What is the difference between AI automation and traditional automation?",
+          "a": "Traditional automation follows fixed if-then rules; AI automation handles variable, language-heavy or judgment-based tasks."
+        },
+        {
+          "q": "Which business processes should I automate with AI first?",
+          "a": "High-volume, repetitive, time-consuming ones with some unstructured data: customer inquiries, document extraction, lead scoring, reporting, scheduling."
+        },
+        {
+          "q": "What ROI can I expect from AI automation?",
+          "a": "Typical payback in 3-9 months; support costs down 25-40%, document processing time down 60-80%, lead-scoring efficiency up 20-35%, 10-25 hours saved weekly per automated process."
+        },
+        {
+          "q": "Can AI automation work with my existing software and tools?",
+          "a": "Yes: Salesforce, HubSpot, Zoho, Shopify, WooCommerce, QuickBooks, Xero, Freshdesk, Zendesk, Slack, Teams, Google Workspace and more, with custom connectors where needed."
+        }
+      ],
+      "guides": [
+        "AI Automation Services: The Complete Guide"
+      ],
+      "finalCta": {
+        "title": "Ready to put AI to work?",
+        "subtitle": "A direct conversation about where AI will move the needle in your business.",
+        "button": "Talk to an Expert"
+      }
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Digital Marketing",
+      "heroTitle": "Digital Marketing Consulting, GEO & AIO Optimization",
+      "badges": [
+        "Data-driven programs",
+        "Measurable ROI",
+        "India, US, Middle East clients"
+      ],
+      "groups": [
+        "Marketing Analytics & MarTech",
+        "Growth & Performance (rankings, traffic, paid acquisition)",
+        "Brand & Engagement (audience, content, community)",
+        "Direct & Conversational Marketing (SMS and WhatsApp)"
+      ],
+      "services": [
+        {
+          "group": "Marketing Analytics & MarTech",
+          "title": "Marketing Analytics, Attribution & MarTech",
+          "tagline": "TRACK EVERYTHING, ATTRIBUTE ACCURATELY, SPEND SMARTER",
+          "intro": "Stop guessing which campaigns drive revenue. We build the measurement layer under your marketing so every click, lead, and conversion is tracked, attributed, and traceable back to the exact channel and campaign that earned it.",
+          "deliverables": [
+            "GA4 setup: custom events, conversions, enhanced measurement",
+            "Google Tag Manager implementation and container structure",
+            "Meta Pixel, Conversions API, and LinkedIn Insight Tag configuration",
+            "Lead attribution and multi-touch journey mapping",
+            "Factors.ai / B2B attribution for long sales cycles",
+            "UTM strategy, campaign tracking, CRM/automation integration",
+            "Custom dashboards, cookie consent, and privacy compliance (DPDP, GDPR)"
+          ],
+          "closing": "Every dashboard answers exactly which marketing spend actually drove revenue.",
+          "cta": "Get a Free Tracking Audit"
+        },
+        {
+          "group": "Marketing Analytics & MarTech",
+          "title": "Marketing Automation",
+          "tagline": "EVERY TRIGGER, EVERY CHANNEL, ONE SYSTEM",
+          "intro": "Say goodbye to fragmented tools. We unite your email, SMS, and WhatsApp into a single, automated customer journey that nurtures leads, recovers carts, and drives retention without manual intervention.",
+          "deliverables": [
+            "Multi-channel automation strategy and blueprinting",
+            "Setup/management on HubSpot, Klaviyo, Mailchimp, and others",
+            "Lead scoring and lifecycle-stage automation rules",
+            "Behavioural triggers: welcome, abandoned cart, re-engagement, win-back",
+            "CRM integration and real-time bidirectional data sync",
+            "Comprehensive audit of existing workflows to fix broken triggers"
+          ],
+          "closing": "Automation that fires perfectly on time, every time, across every channel.",
+          "cta": "Get a Free Automation Audit"
+        },
+        {
+          "group": "Growth & Performance (rankings, traffic, paid acquisition)",
+          "title": "SEO (Search Engine Optimisation)",
+          "tagline": "RANK HIGHER, GET FOUND, GROW FASTER",
+          "intro": "Organic growth requires technical excellence and strategic content. We optimize your digital presence for long-term search dominance, ensuring your brand appears exactly when your customers are looking.",
+          "deliverables": [
+            "Comprehensive SEO audit and competitive landscape analysis",
+            "On-page: meta tags, headings, content structure, internal linking",
+            "Technical SEO: site speed, Core Web Vitals, mobile-first indexing",
+            "Keyword research, gap analysis, and content strategy",
+            "Off-page strategy: sustainable link building and digital PR",
+            "Local SEO and Google Business Profile optimization",
+            "Monthly transparent ranking and performance reports"
+          ],
+          "closing": "Sustainable, guideline-compliant growth with no black-hat shortcuts.",
+          "cta": "Talk to an SEO Expert"
+        },
+        {
+          "group": "Growth & Performance (rankings, traffic, paid acquisition)",
+          "title": "SEM (Performance Marketing)",
+          "tagline": "MAKE EVERY CLICK COUNT",
+          "intro": "Paid search demands precision. We run targeted, data-driven campaigns with strong ad copy and constant optimization to maximize your return on ad spend (ROAS) and lower your cost per acquisition.",
+          "deliverables": [
+            "Google Ads and Bing Ads setup and continuous management",
+            "Extensive keyword research and match-type bidding strategy",
+            "Ad copy creation and continuous A/B creative testing",
+            "Rigorous negative keyword management to eliminate wasted spend",
+            "Strategic remarketing to warm audiences",
+            "Performance Max and Google Shopping ads management",
+            "Transparent, real-time CPL and ROAS reporting"
+          ],
+          "closing": "Expert management for first-time campaigns and struggling accounts alike.",
+          "cta": "Get a Free Audit"
+        },
+        {
+          "group": "Growth & Performance (rankings, traffic, paid acquisition)",
+          "title": "Meta Ads (Facebook & Instagram)",
+          "tagline": "PRECISE TARGETING AND CREATIVE THAT CONVERTS",
+          "intro": "Meta campaigns run like true performance marketing: tight audiences, conversion-focused creative, and results tracked flawlessly via Pixel and Conversions API (CAPI).",
+          "deliverables": [
+            "Conversion-focused and Advantage+ campaign structuring",
+            "Native Lead ads for frictionless in-platform capture",
+            "Advanced retargeting via Meta Pixel and CAPI",
+            "Catalogue and dynamic product ads for e-commerce",
+            "Reels and Stories placements built specifically for the format",
+            "In-house creative production: ad copy, static graphics, short-form video",
+            "Custom, lookalike, interest-based, and website visitor audiences",
+            "Granular reporting on spend, ROAS, CPA, and creative-level results"
+          ],
+          "closing": "Comprehensive strategy and scroll-stopping creative under one roof.",
+          "cta": "Get a Free Meta Ads Audit"
+        },
+        {
+          "group": "Growth & Performance (rankings, traffic, paid acquisition)",
+          "title": "LinkedIn Marketing",
+          "tagline": "WHERE B2B DECISIONS GET MADE",
+          "intro": "We treat LinkedIn as its own specialized discipline: targeting by specific roles, seniorities, and industries with professional creative, while ensuring attribution feeds seamlessly into your tech stack.",
+          "deliverables": [
+            "Sponsored Content and Message Ads targeting by title, seniority, industry, company size",
+            "High-converting Lead Gen Forms for B2B pipeline growth",
+            "Matched Audiences retargeting (website visitors, CRM contact lists)",
+            "Campaign Manager setup, audience testing, and bidding optimization",
+            "In-house professional ad creative and compelling B2B copy",
+            "Company page content strategy and execution support",
+            "Detailed reporting on CPL, CTR, and pipeline engagement quality"
+          ],
+          "closing": "A targeting model built around the exact people who sign the contract.",
+          "cta": "Get a Free LinkedIn Ads Audit"
+        },
+        {
+          "group": "Growth & Performance (rankings, traffic, paid acquisition)",
+          "title": "Conversion Rate Optimization (CRO)",
+          "tagline": "TEST EVERYTHING, FIX THE FRICTION",
+          "intro": "Stop pouring traffic into a leaky bucket. We run structured testing programmes that convert more of the traffic you already earn into paying customers, especially valuable for paid-traffic D2C brands.",
+          "deliverables": [
+            "Comprehensive landing page and funnel audits",
+            "User behavior analysis (heatmaps, session recordings)",
+            "A/B and multivariate testing for headlines, CTA, and layouts",
+            "Checkout flow optimization to reduce cart abandonment",
+            "Site speed and mobile UX improvements",
+            "Data-driven recommendations backed by statistical significance"
+          ],
+          "closing": "Maximize the ROI of every channel by fixing what's broken on your site.",
+          "cta": "Get a Free CRO Audit"
+        },
+        {
+          "group": "Brand & Engagement (audience, content, community)",
+          "title": "Brand & Engagement Strategy",
+          "tagline": "BUILD A BRAND THAT RESONATES",
+          "intro": "Great marketing needs a great foundation. We define your brand voice, understand your audience, and create content and community strategies that foster genuine engagement and long-term loyalty.",
+          "deliverables": [
+            "Brand positioning, messaging frameworks, and tone of voice guidelines",
+            "Audience persona development and journey mapping",
+            "Organic social media strategy and content calendars",
+            "Community building and engagement management",
+            "Influencer and partnership strategy",
+            "Brand sentiment and social listening analytics"
+          ],
+          "closing": "Move beyond transactions and build a brand people actually care about.",
+          "cta": "Talk to a Brand Strategist"
+        },
+        {
+          "group": "Direct & Conversational Marketing (SMS and WhatsApp)",
+          "title": "WhatsApp & SMS Marketing",
+          "tagline": "REACH CUSTOMERS WHERE THEY ARE",
+          "intro": "Email gets ignored; texts get read. We design direct, conversational marketing campaigns via SMS and WhatsApp that drive immediate action, recover sales, and provide proactive customer support.",
+          "deliverables": [
+            "WhatsApp Business API setup and verification",
+            "Broadcast campaign strategy and execution",
+            "Automated flows: abandoned cart, order updates, appointment reminders",
+            "Two-way conversational flows for customer support and lead qualification",
+            "SMS campaign management and compliance (DND, opt-in rules)",
+            "Integration with CRM and e-commerce platforms"
+          ],
+          "closing": "The highest open rates in digital marketing, delivered directly to their pocket.",
+          "cta": "Start Direct Messaging"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is GEO SEO and why does it matter in 2026?",
+          "a": "Optimising content to be cited by AI search engines (ChatGPT, Perplexity, Gemini, Claude). Site cites a 369% rise in AI search volume since 2025."
+        },
+        {
+          "q": "What is AIO optimization (Google AI Overviews)?",
+          "a": "Structuring pages (answer-first writing, FAQ schema, page structure) so Google picks them for AI Overview summaries."
+        },
+        {
+          "q": "What does digital marketing consulting include?",
+          "a": "Traffic/keyword/competitor audit, prioritised 90-day roadmap, hands-on execution across SEO, content, paid and social, and monthly revenue-linked reporting."
+        },
+        {
+          "q": "What analytics and tracking services are offered?",
+          "a": "GA4, GTM, Meta Pixel/CAPI, LinkedIn Insight Tag, Factors.ai, connected to CRM and automation; existing tracking is audited first."
+        },
+        {
+          "q": "Do you help with GA4 and conversion tracking?",
+          "a": "Yes: custom events, ad-platform connections and readable dashboards, usually done in 5-10 business days."
+        },
+        {
+          "q": "SEO for small businesses?",
+          "a": "Yes: low-competition, high-value keywords first, then harder terms."
+        },
+        {
+          "q": "How long to see SEO results?",
+          "a": "Quick wins (difficulty <30): 30-60 days. Mid-range (40-60): 3-6 months. Head terms (60+): 6-12 months."
+        }
+      ],
+      "guides": [
+        "SEO vs Paid Ads: Which Gives Better ROI?"
+      ],
+      "finalCta": {
+        "title": "Ready to grow?",
+        "subtitle": "A direct conversation about your growth strategy.",
+        "button": "Talk to an Expert"
+      }
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "heroTitle": "Mobile App Development & Custom Software Development",
+      "badges": [
+        "ISO 9001:2015 Certified",
+        "Custom builds for MSMEs and startups",
+        "Delhi + New Jersey"
+      ],
+      "services": [
+        {
+          "title": "Web Development",
+          "tagline": "YOUR WEBSITE IS YOUR BEST SALESPERSON",
+          "intro": "We build fast, secure, and scalable web experiences. From high-converting marketing pages to complex, data-heavy web applications, our development team ensures your digital presence performs flawlessly.",
+          "deliverables": [
+            "Custom development across React, Next.js, and WordPress",
+            "E-commerce solutions beyond Shopify: WooCommerce, Magento, and custom builds",
+            "Development of blazing-fast Progressive Web Apps (PWAs)",
+            "Custom API development and complex third-party integrations",
+            "Rigorous optimization for speed, SEO, and Core Web Vitals",
+            "Intuitive CMS setup for effortless internal content management"
+          ],
+          "closing": "Recognized by Clutch.co as a Top Tech Development Company in India.",
+          "cta": "Talk to a Web Developer"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does custom mobile app development cost?",
+          "a": "Typically $15,000-$150,000; a simple MVP $15,000-$40,000. Detailed estimate after a free discovery call."
+        },
+        {
+          "q": "Benefit of outsourcing app development to India?",
+          "a": "40-70% savings versus US/UK rates with quality, transparent process and US timezone overlap."
+        },
+        {
+          "q": "How long does building an app take?",
+          "a": "Usually 3-6 months; an MVP in 8-12 weeks, using agile sprints with weekly demos."
+        },
+        {
+          "q": "Android and iOS both?",
+          "a": "Yes: native Android (Kotlin/Java), native iOS (Swift), and React Native / Flutter, chosen by audience, budget and performance needs."
+        },
+        {
+          "q": "Custom vs off-the-shelf software?",
+          "a": "Custom fits your exact process, data and integrations, costs more upfront, but removes licensing fees and limits."
+        },
+        {
+          "q": "Can you build a SaaS product from scratch?",
+          "a": "Yes: strategy, UX, backend, frontend, cloud and post-launch, across EdTech, FinTech, HR and logistics."
+        }
+      ],
+      "guides": [
+        "How Much Does It Cost to Build a Mobile App?",
+        "In-House vs Outsourcing Development"
+      ],
+      "finalCta": {
+        "title": "Ready to build?",
+        "subtitle": "A direct conversation about your technology needs.",
+        "button": "Talk to an Expert"
+      }
+    },
+    {
+      "id": "design",
+      "title": "Design",
+      "heroTitle": "UI/UX & Brand Design Services for Startups",
+      "badges": [
+        "WCAG 2.1 AA",
+        "Mobile-first",
+        "Validated through user testing"
+      ],
+      "services": [
+        {
+          "title": "Brand Strategy",
+          "tagline": "Get strategy right before design",
+          "intro": "Defines who you are, who you serve and why customers should choose you.",
+          "deliverables": [
+            "Brand discovery workshops and stakeholder interviews",
+            "Market and competitive analysis",
+            "Purpose, vision and values",
+            "Audience personas and customer journeys",
+            "Positioning statement and brand architecture",
+            "Brand personality and voice principles"
+          ],
+          "closing": "Foundation for messaging, design, marketing and culture.",
+          "cta": "Book a Strategy Session"
+        },
+        {
+          "title": "Logo Design",
+          "tagline": "A memorable face for your brand",
+          "intro": "Distinctive, versatile, lasting logos rather than trend-following ones.",
+          "deliverables": [
+            "Discovery session on brand, audience, competitors",
+            "Multiple concept directions with rationale",
+            "Iterative refinement from feedback",
+            "Final files: SVG, PNG, PDF, EPS",
+            "Full-colour, monochrome and reversed versions",
+            "Usage guidelines"
+          ],
+          "closing": "Same rigour for first-time founders and rebrands.",
+          "cta": "Get Started with Hindustan Marketing Media"
+        },
+        {
+          "title": "Brand Development",
+          "tagline": "From idea to lasting identity",
+          "intro": "End-to-end brand creation covering strategy, naming, voice and full identity system.",
+          "deliverables": [
+            "Naming and domain research",
+            "Visual identity: logo, colours, typography, iconography",
+            "Verbal identity: voice, key messages, narrative",
+            "Brand story and About Us content",
+            "Digital and print applications",
+            "Launch strategy and go-to-market rollout"
+          ],
+          "closing": "Brands ready to compete from day one.",
+          "cta": "Talk to Our Team"
+        },
+        {
+          "title": "Brand Guidelines",
+          "tagline": "Consistency builds trust",
+          "intro": "A brand bible so everyone represents the brand correctly.",
+          "deliverables": [
+            "Guidelines document (digital and printable PDF)",
+            "Logo rules: spacing, sizing, colours, misuse",
+            "Colour specs: HEX, RGB, CMYK, Pantone",
+            "Typography system and hierarchy",
+            "Photography and imagery direction",
+            "Tone-of-voice guide with do/don't examples",
+            "Templates: presentations, email signatures, letterheads"
+          ],
+          "closing": "Clarity, consistency, trust, loyalty.",
+          "cta": "Get Your Guidelines Developed"
+        },
+        {
+          "title": "Messaging and Positioning",
+          "tagline": "Right words, right audience",
+          "intro": "Articulates your unique value so it resonates and differentiates.",
+          "deliverables": [
+            "Positioning analysis and whitespace identification",
+            "Core value proposition",
+            "Messaging hierarchy: primary message, support, proof",
+            "Audience-specific variants (B2B vs B2C, segments)",
+            "Taglines and headlines",
+            "Elevator pitch and sales narrative"
+          ],
+          "closing": "Clear messaging eases sales, marketing, hiring and fundraising.",
+          "cta": "Book a Messaging Workshop"
+        },
+        {
+          "title": "Corporate Identity",
+          "tagline": "Every touchpoint builds trust",
+          "intro": "Unified visual and verbal system from business cards to boardroom decks.",
+          "deliverables": [
+            "Business cards",
+            "Letterhead, envelope, document templates",
+            "Email signature",
+            "Presentation templates (PowerPoint/Google Slides)",
+            "Office signage and environmental concepts",
+            "Uniform and merchandise design",
+            "Full stationery suite"
+          ],
+          "closing": "A cohesive identity signals professionalism.",
+          "cta": "Get Started Today"
+        },
+        {
+          "title": "Brand Collateral Design",
+          "tagline": "Make every marketing asset count",
+          "intro": "Physical and digital materials that reinforce identity and drive action.",
+          "deliverables": [
+            "Brochures, flyers, catalogues",
+            "Pitch decks and investor presentations",
+            "Social templates and ad creatives",
+            "Event banners, exhibition stands, materials",
+            "Product packaging",
+            "Case study and white paper layouts",
+            "Annual reports and corporate publications"
+          ],
+          "closing": "Designed to move audiences toward a decision.",
+          "cta": "Talk to Our Design Team"
+        },
+        {
+          "title": "Brand Audits and Analysis",
+          "tagline": "Measure before you improve",
+          "intro": "A health check showing where your brand performs, falls short and can improve.",
+          "deliverables": [
+            "Audit of brand assets and consistency",
+            "Competitive benchmarking",
+            "Customer perception analysis",
+            "Digital brand audit: website, social, search",
+            "Internal brand alignment assessment",
+            "Prioritised recommendations with roadmap"
+          ],
+          "closing": "An honest expert view and a plan forward.",
+          "cta": "Book a Brand Audit"
+        },
+        {
+          "title": "Brand Communication Strategy",
+          "tagline": "Right message, channel and moment",
+          "intro": "Blueprint for what your brand says, where and how often.",
+          "deliverables": [
+            "Communication objectives tied to business goals",
+            "Audience mapping and channel strategy",
+            "Content pillars and messaging frameworks",
+            "Integrated calendar: owned, earned, paid",
+            "Internal comms and employer branding",
+            "Crisis communication and reputation guidelines"
+          ],
+          "closing": "Consistent, clear, impactful across every market.",
+          "cta": "Talk to an Expert"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does a website redesign take?",
+          "a": "Typically 6-14 weeks: discovery 1-2 weeks, design 3-5 weeks, handoff and QA 2-4 weeks; larger engagements 3-4 months."
+        },
+        {
+          "q": "What does UI/UX design cost for a startup?",
+          "a": "About $3,000 (focused feature redesign) to $25,000+ (full product design); website redesigns $5,000-$20,000; retainers from $1,500/month."
+        },
+        {
+          "q": "Do you design for mobile apps too?",
+          "a": "Yes: web, iOS and Android, following Apple HIG and Material Design, delivered as Figma files with components, annotations and design tokens."
+        },
+        {
+          "q": "How do you ensure accessibility?",
+          "a": "WCAG 2.1 AA baseline: 4.5:1 contrast, keyboard navigation, ARIA labels, 44x44 px touch targets, checked during design."
+        }
+      ],
+      "guides": [],
+      "finalCta": {
+        "title": "Ready to design?",
+        "subtitle": "A direct conversation about your brand and product.",
+        "button": "Talk to an Expert"
+      }
+    }
+  ]
+}
