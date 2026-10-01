@@ -1,6 +1,7 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const PillarCard = ({ num, title, desc, flex }) => (
+const PillarCard = ({ num, title, desc, flex, onClick }) => (
   <div style={{
     background: 'var(--white)',
     border: '1px solid rgba(57,55,56,0.08)',
@@ -13,7 +14,9 @@ const PillarCard = ({ num, title, desc, flex }) => (
     position: 'relative',
     overflow: 'hidden',
     transition: 'border-color 0.3s ease',
+    cursor: 'pointer',
   }}
+  onClick={onClick}
   onMouseEnter={(e) => e.currentTarget.style.borderColor = 'rgba(57,55,56,0.2)'}
   onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(57,55,56,0.08)'}
   >
@@ -38,6 +41,7 @@ const PillarCard = ({ num, title, desc, flex }) => (
 );
 
 export default function WhatWeDo() {
+  const navigate = useNavigate();
   return (
     <section style={{ backgroundColor: 'var(--cream)', padding: '120px 0', color: 'var(--dark)' }}>
       <div className="container" style={{ maxWidth: '1000px', margin: '0 auto' }}>
@@ -64,9 +68,11 @@ export default function WhatWeDo() {
         }}>
           
           {/* Left Column - AI Image Card */}
-          <div style={{ 
+          <div 
+            onClick={() => navigate('/services/ai-automation')}
+            style={{ 
             borderRadius: '16px', overflow: 'hidden', position: 'relative', display: 'flex', flexDirection: 'column', 
-            padding: '20px', minHeight: '400px', border: '1px solid rgba(57,55,56,0.08)'
+            padding: '20px', minHeight: '400px', border: '1px solid rgba(57,55,56,0.08)', cursor: 'pointer'
           }}>
             <img 
               src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1000&q=80" 
@@ -108,6 +114,7 @@ export default function WhatWeDo() {
                 num="02" 
                 title="Digital Marketing" 
                 desc="Search, social, and paid campaigns grounded in data, not guesswork. Full-funnel strategy from keyword research to conversion optimization." 
+                onClick={() => navigate('/services/digital-marketing')}
               />
             </div>
             
@@ -117,11 +124,13 @@ export default function WhatWeDo() {
                 num="03" 
                 title="Technology" 
                 desc="Web applications, cloud architecture, and platform builds designed for scale." 
+                onClick={() => navigate('/services/technology')}
               />
               <PillarCard 
                 num="04" 
                 title="Design" 
                 desc="Brand identity, UI/UX, and visual systems that communicate credibility." 
+                onClick={() => navigate('/services/design')}
               />
             </div>
 
