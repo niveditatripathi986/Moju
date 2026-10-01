@@ -233,7 +233,10 @@ p { margin: 0; }
 
 @media (max-width: 900px) {
   .mobile-menu-toggle { display: flex !important; }
-  nav > *:not(:last-child) { display: none; }
+  nav { display: none !important; }
+  .desktop-cta { display: none !important; }
+  .brand-title { font-size: 1rem !important; }
+  .brand-subtitle { display: none !important; }
 }
 
 /* ════════════════════════════════════════════════════

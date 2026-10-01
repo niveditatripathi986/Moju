@@ -70,7 +70,7 @@ export default function Services() {
                     
                     <div style={{ backgroundColor: 'rgba(0,0,0,0.3)', borderRadius: '12px', padding: '24px', marginBottom: '24px' }}>
                       <h4 style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '16px', fontWeight: 700 }}>Key Capabilities</h4>
-                      <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                      <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px' }}>
                         {card.features.map((feat, fIdx) => (
                           <li key={fIdx} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.9rem', color: 'rgba(255,255,255,0.9)' }}>
                             <CheckCircle2 size={16} color="var(--orange)" />

@@ -56,7 +56,7 @@ export default function ContactPage() {
         <div style={{ backgroundColor: 'var(--cream)', borderRadius: '24px', padding: '40px', marginBottom: '48px', color: 'var(--dark)' }}>
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
             
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '24px' }}>
               <div>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px' }}>Name *</label>
                 <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Your name" style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid rgba(57,55,56,0.2)', outline: 'none', fontFamily: 'inherit' }} required />
@@ -67,7 +67,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '24px' }}>
               <div>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '8px' }}>Phone Number</label>
                 <input type="tel" value={phone} onChange={e => setPhone(e.target.value)} placeholder="+1 (555) 000-0000" style={{ width: '100%', padding: '12px 16px', borderRadius: '8px', border: '1px solid rgba(57,55,56,0.2)', outline: 'none', fontFamily: 'inherit' }} />

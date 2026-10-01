@@ -70,7 +70,7 @@ export default function Contact() {
 
                 <div><label className="form-label">Full Name *</label><input type="text" required className="form-input" placeholder="e.g. Rahul Sharma" value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} /></div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '14px' }}>
                   <div><label className="form-label">Work Email *</label><input type="email" required className="form-input" placeholder="rahul@company.com" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))} /></div>
                   <div><label className="form-label">Phone / WhatsApp *</label><input type="tel" required className="form-input" placeholder="+91 98765 43210" value={form.phone} onChange={e => setForm(p => ({ ...p, phone: e.target.value }))} /></div>
                 </div>
@@ -79,7 +79,7 @@ export default function Contact() {
 
                 <div>
                   <label className="form-label">Monthly Ad Spend Budget</label>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '8px' }}>
                     {budgets.map(b => (
                       <button type="button" key={b} onClick={() => setForm(p => ({ ...p, budget: b }))} style={{ padding: '11px', borderRadius: '10px', border: '2px solid', borderColor: form.budget === b ? 'var(--dark)' : 'var(--gray)', background: form.budget === b ? 'var(--peach)' : 'var(--cream)', color: 'var(--dark)', fontWeight: '700', fontSize: '0.82rem', cursor: 'pointer', transition: 'all 0.15s', fontFamily: 'var(--font-sans)' }}>{b}</button>
                     ))}

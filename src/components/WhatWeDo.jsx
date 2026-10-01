@@ -112,7 +112,7 @@ export default function WhatWeDo() {
             </div>
             
             {/* Bottom Row (03 & 04) */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', flex: 1 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', flex: 1 }}>
               <PillarCard 
                 num="03" 
                 title="Technology" 

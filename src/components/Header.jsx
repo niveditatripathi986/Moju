@@ -66,8 +66,8 @@ export default function Header({ onOpenAuditModal }) {
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', color: textColor }}>
           <img src={logoImg} alt="Hindustan Marketing Media Logo" style={{ height: '38px', width: '38px', borderRadius: '50%', objectFit: 'cover' }} />
           <div>
-            <span style={{ fontWeight: '800', fontSize: '1.15rem', letterSpacing: '0.04em', display: 'block', lineHeight: '1.1', fontFamily: 'var(--font-sans)' }}>Hindustan Marketing Media</span>
-            <span style={{ fontSize: '0.65rem', fontWeight: '700', letterSpacing: '0.18em', color: 'var(--orange)', textTransform: 'uppercase', display: 'block' }}>CONSULTING</span>
+            <span className="brand-title" style={{ fontWeight: '800', fontSize: '1.15rem', letterSpacing: '0.04em', display: 'block', lineHeight: '1.1', fontFamily: 'var(--font-sans)' }}>Hindustan Marketing Media</span>
+            <span className="brand-subtitle" style={{ fontSize: '0.65rem', fontWeight: '700', letterSpacing: '0.18em', color: 'var(--orange)', textTransform: 'uppercase', display: 'block' }}>CONSULTING</span>
           </div>
         </Link>
 
@@ -118,6 +118,7 @@ export default function Header({ onOpenAuditModal }) {
         {/* CTA + Mobile toggle */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <button
+            className="desktop-cta"
             onClick={() => navigate('/contact')}
             style={{
               display: 'flex', alignItems: 'center', gap: '8px',
