@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function ReadyToTalk() {
+  const navigate = useNavigate();
+
   return (
     <section style={{ 
       position: 'relative',
@@ -83,6 +86,7 @@ export default function ReadyToTalk() {
           e.currentTarget.style.background = 'var(--orange)';
           e.currentTarget.style.transform = 'none';
         }}
+        onClick={() => navigate('/contact')}
         >
           Explore More
         </button>

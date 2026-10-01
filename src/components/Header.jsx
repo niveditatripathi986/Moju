@@ -11,7 +11,7 @@ import {
   ArrowRight,
   PhoneCall
 } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import logoImg from '../assets/logomoju.png';
 
 export default function Header({ onOpenAuditModal }) {
@@ -19,6 +19,7 @@ export default function Header({ onOpenAuditModal }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -117,7 +118,7 @@ export default function Header({ onOpenAuditModal }) {
         {/* CTA + Mobile toggle */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <button
-            onClick={onOpenAuditModal}
+            onClick={() => navigate('/contact')}
             style={{
               display: 'flex', alignItems: 'center', gap: '8px',
               padding: '10px 22px', borderRadius: '9999px',
@@ -158,7 +159,7 @@ export default function Header({ onOpenAuditModal }) {
               {['Home', 'Services', 'About', 'Contact'][i]}
             </Link>
           ))}
-          <button className="btn btn-primary" onClick={() => { setIsMobileMenuOpen(false); onOpenAuditModal(); }} style={{ marginTop: '6px', width: '100%' }}>
+          <button className="btn btn-primary" onClick={() => { setIsMobileMenuOpen(false); navigate('/contact'); }} style={{ marginTop: '6px', width: '100%' }}>
             Talk to an Expert <ArrowRight size={16} />
           </button>
         </div>

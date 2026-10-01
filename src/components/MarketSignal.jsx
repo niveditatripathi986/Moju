@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import robotImage from '../assets/robot.png';
 
 export default function MarketSignal() {
+  const navigate = useNavigate();
+
   return (
     <section style={{ 
       backgroundColor: 'var(--cream)', 
@@ -112,6 +115,7 @@ export default function MarketSignal() {
               }}
               onMouseEnter={(e) => e.currentTarget.style.background = 'var(--orange)'}
               onMouseLeave={(e) => e.currentTarget.style.background = 'var(--dark)'}
+              onClick={() => navigate('/contact')}
               >
                 Find Out Where You Stand
               </button>
