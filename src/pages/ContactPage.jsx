@@ -110,15 +110,13 @@ export default function ContactPage() {
         <h2 style={{ fontSize: '1.8rem', fontWeight: 800, marginBottom: '24px', color: 'var(--dark)' }}>Find Us Online</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px', marginBottom: '80px' }}>
           {[
-            { n: 'Instagram', u: '@hindustanmarketingmedia', i: ExternalLink },
-            { n: 'Facebook', u: 'hindustanmarketingmedia', i: ExternalLink },
-            { n: 'LinkedIn', u: 'Hindustan Marketing Media', i: ExternalLink },
-            { n: 'Clutch', u: 'Reviews & Ratings', i: ExternalLink },
-            { n: 'GoodFirms', u: 'Reviews & Ratings', i: ExternalLink }
+            { n: 'Instagram', u: '@hindustanmarketingmedia', i: ExternalLink, link: 'https://www.instagram.com/hindustanmarketingmedia' },
+            { n: 'Facebook', u: 'hindustanmarketingmedia', i: ExternalLink, link: 'https://www.facebook.com/hindustanmarketingmedia' },
+            { n: 'LinkedIn', u: 'Hindustan Marketing Media', i: ExternalLink, link: 'https://www.linkedin.com/company/hindustan-marketing-media' }
           ].map((soc, i) => {
             const Icon = soc.i;
             return (
-              <a key={i} href="#" style={{ 
+              <a key={i} href={soc.link || '#'} target="_blank" rel="noopener noreferrer" style={{ 
                 display: 'flex', alignItems: 'center', gap: '16px', backgroundColor: 'var(--cream)', 
                 border: '1px solid rgba(57,55,56,0.1)', borderRadius: '12px', padding: '16px', 
                 textDecoration: 'none', color: 'var(--dark)'
