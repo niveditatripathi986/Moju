@@ -100,16 +100,15 @@ export default function BlogPage() {
   });
 
   return (
-    <main style={{ backgroundColor: 'var(--cream)', minHeight: '100vh', paddingTop: '120px', paddingBottom: '80px', fontFamily: 'var(--font-sans)', color: 'var(--dark)' }}>
+    <main style={{ backgroundColor: 'var(--cream)', minHeight: '100vh', paddingTop: '160px', paddingBottom: '80px', fontFamily: 'var(--font-sans)', color: 'var(--dark)' }}>
       <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
         
         {/* Hero Section */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', marginBottom: '60px', gap: '40px' }}>
-          <div style={{ flex: '1 1 600px', maxWidth: '800px' }}>
-            <h1 className="blog-hero-heading" style={{ fontFamily: 'var(--font-sans)', fontSize: 'clamp(2.2rem, 4.5vw, 4.2rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '16px', color: 'var(--dark)' }}>
-              Ideas, Insights & <br />
-              Stories That Shape <br />
-              <span style={{ fontFamily: 'var(--font-serif)', fontStyle: 'italic', fontWeight: 500, fontSize: 'clamp(2.5rem, 5vw, 4.6rem)', letterSpacing: '-0.02em', display: 'inline-block', marginTop: '4px' }}>
+        <div className="hero-container" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', marginBottom: '60px', gap: '20px' }}>
+          <div style={{ flex: '1 1 650px', maxWidth: '800px' }}>
+            <h1 className="blog-hero-heading" style={{ fontFamily: 'var(--font-sans)', fontSize: 'clamp(1.4rem, 2.8vw, 2.8rem)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '16px', color: 'var(--dark)' }}>
+              Ideas, Insights & Stories That Shape <br />
+              <span style={{ fontFamily: 'var(--font-serif)', fontStyle: 'italic', fontWeight: 500, fontSize: 'clamp(1.6rem, 3.2vw, 3.4rem)', letterSpacing: '-0.02em', display: 'inline-block', marginTop: '4px' }}>
                 Digital <span className="serif-italic" style={{ color: 'var(--orange)' }}>Growth.</span>
               </span>
             </h1>
@@ -118,7 +117,7 @@ export default function BlogPage() {
             </p>
           </div>
           
-          <div style={{ flex: '1 1 500px', position: 'relative' }}>
+          <div style={{ flex: '1 1 350px', position: 'relative' }}>
             <img src={blogHeroImage} alt="Blog Hero Illustration" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
           </div>
         </div>
@@ -210,11 +209,10 @@ export default function BlogPage() {
         }
         @media (max-width: 768px) {
           .blog-hero-heading {
-            white-space: normal !important;
-            font-size: clamp(2rem, 8vw, 2.8rem) !important;
+            font-size: clamp(1rem, 4.5vw, 1.8rem) !important;
           }
           .blog-hero-heading span {
-            font-size: clamp(2.4rem, 10vw, 3.2rem) !important;
+            font-size: clamp(1.4rem, 6vw, 2.2rem) !important;
           }
           .filters-container {
             flex-wrap: nowrap !important;
