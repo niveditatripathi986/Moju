@@ -112,6 +112,7 @@ export default function Header({ onOpenAuditModal }) {
           </div>
 
           <Link to="/about" style={dynamicNavLinkStyle}>About</Link>
+          <Link to="/blog" style={dynamicNavLinkStyle}>Blog</Link>
           <Link to="/contact" style={dynamicNavLinkStyle}>Contact</Link>
         </nav>
 
@@ -155,9 +156,9 @@ export default function Header({ onOpenAuditModal }) {
           backgroundColor: 'var(--cream)', borderBottom: '1px solid var(--gray)',
           padding: '16px 24px 24px', display: 'flex', flexDirection: 'column', gap: '14px',
         }}>
-          {['/', '/services', '/about', '/contact'].map((path, i) => (
+          {['/', '/services', '/about', '/blog', '/contact'].map((path, i) => (
             <Link key={i} to={path} onClick={() => setIsMobileMenuOpen(false)} style={mobileNavLinkStyle}>
-              {['Home', 'Services', 'About', 'Contact'][i]}
+              {['Home', 'Services', 'About', 'Blog', 'Contact'][i]}
             </Link>
           ))}
           <button className="btn btn-primary" onClick={() => { setIsMobileMenuOpen(false); navigate('/contact'); }} style={{ marginTop: '6px', width: '100%' }}>

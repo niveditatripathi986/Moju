@@ -11,6 +11,7 @@ import ServicesPage from './pages/ServicesPage';
 import About from './pages/About';
 import Insights from './pages/Insights';
 import InsightDetail from './pages/InsightDetail';
+import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
 
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/insights" element={<Insights />} />
         <Route path="/insights/:id" element={<InsightDetail />} />
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
